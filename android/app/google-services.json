@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "614133323638",
+    "project_id": "smartads-49711",
+    "storage_bucket": "smartads-49711.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614133323638:android:6541e943df321e2ff60c57",
+        "android_client_info": {
+          "package_name": "com.example.manager"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjEumHuF13E2SwzzfpWAtSmzjJFC7af0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614133323638:android:94f71b59fce66ffbf60c57",
+        "android_client_info": {
+          "package_name": "com.example.screen"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjEumHuF13E2SwzzfpWAtSmzjJFC7af0o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
