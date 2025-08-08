@@ -29,7 +29,7 @@ class _PlaceScreensPageState extends State<PlaceScreensPage>
   bool _isGridView = false;
   final TextEditingController _searchController = TextEditingController();
   
-  // Statistics
+
   int _totalAds = 0;
   int _totalScreens = 0;
   Map<String, int> _adTypeStats = {};

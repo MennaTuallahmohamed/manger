@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'add_screen_page.dart';
 import 'add_client.dart';
+import 'status.dart';
+import 'firebase_test.dart';
 
 class AdminScreen extends StatefulWidget {
   const AdminScreen({Key? key}) : super(key: key);
@@ -635,6 +637,28 @@ class _AdminScreenState extends State<AdminScreen>
           color: Colors.black87,
         ),
         actions: [
+          IconButton(
+            icon: const Icon(Icons.monitor_heart),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const StatusPage(),
+                ),
+              );
+            },
+          ),
+          IconButton(
+            icon: const Icon(Icons.bug_report),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => const FirebaseTestWidget(),
+                ),
+              );
+            },
+          ),
           IconButton(
             icon: Icon(_isSearchMode ? Icons.close : Icons.search),
             onPressed: () {
